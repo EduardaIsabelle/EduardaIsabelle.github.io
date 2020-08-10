@@ -40,7 +40,7 @@ li{
     color: black;
     border:5px black solid;
     padding: 15px 05px 15px 05px;
-    padding: 08px;
+    padding: 8px;
 }
 #icone{
     width: 51px;
@@ -58,7 +58,7 @@ li{
 .imgfeito{
     width: 200px;
 }
-a {
+a{
     text-decoration: none;
     margin: 20px;
 } 
@@ -93,9 +93,22 @@ a {
     text-align: center;
 }
 .meio {
-    padding: left 50;px;
+    padding: left 50px;
 }
 footer{
     background-color: #27a7e5;
     width: 100%;
+}
+@media all and (max-width:768px){
+    #menu{
+        visibility: hidden;
+    }
+    .coluna{
+        display: block;
+        width: 80%;
+        padding: 0%;
+        margin: 10px auto;
+        float: none;
+
+    }
 }
